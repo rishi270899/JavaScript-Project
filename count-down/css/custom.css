@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.overlay {
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8vh;
+}
+
+.col {
+    width: 1000px;
+    height: 100px;
+    /* border: 1px white solid; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.col input {
+    height: 60px;
+    width: 60%;
+    /* display: block; */
+    margin: 10px 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    text-align: center;
+    font-size: 25px;
+
+}
